@@ -1,22 +1,9 @@
 
 import com.mycompany.softwareengassignment1.*;
 import com.mycompany.softwareengassignment1.Module;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author lukej
- */
+//@author Luke Smyth
 public class Tester {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
       //STUDENTS
       Student luke = new Student("Luke", 21, "2002-01-01", 173);
@@ -65,8 +52,5 @@ public class Tester {
        
        cs.courseInformation(cs);
        System.out.println("---------------------------------------------------------------------------------");
-      
-      
     }
-    
 }
